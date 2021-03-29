@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css.portfolio/style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="logo"><img src="images.portfolio/dark logo.png" alt="Logo"></h1>
+                </div>
+                <div class="col">
+                    <nav class="navbar-top">
+                        <ul>
+                            <li class="nav-item"><a href="#home">Home</a></li>
+                            <li class="nav-item"><a href="#about">About</a></li>
+                            <li class="nav-item"><a href="#gallery">My Works</a></li>
+                            <li class="nav-item"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>        
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="home">
+                <div id= "text">
+                    <div class="row" id="intro">
+                        <h2>Hi, my name is Mya Lee.</h2>
+                    </div>
+                    <div class="row" id="intro">
+                        <h3>Mississippi Coding Academy student <span>2020-2021</span></h3>
+                    </div>
+                </div>
+                <div id="image">
+                    <img src="images.portfolio/Mya Lee Headshot.JPG" alt="Headshot" class="img-fluid">
+                </div>
+                <div id="contact-button">
+                    <div class="row">
+                        <form action="#contact">
+                            <button><strong>Contact me!</strong></button>
+                            <input type="hidden" name="contact">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- /home -->
+
+        <div class="container">
+            <section id="about">
+                <div id="title">
+                    <div class="row">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                
+                <div id="info">
+                    <div class="row">
+                        <p>Student at the Misssissippi Coding Academy to become a front end web developer</p>
+                    </div>
+                    <div class="row">
+                        <p>Studied and worked within education, workforce development, and historical/arts-related fields</p>
+                    </div>
+                    <div class="row">
+                        <p>Fan of wrestling, reading, Asian television and film, anime, fiction and manga, and games</p>
+                    </div>
+                    <div class="row">
+                        <p>Interested in gaining more experience with core Front-end to work on challenging and creative projects as well as learning more coding languages</p>
+                    </div>
+                </div>
+            
+                <div class="row" id="resume">
+                    <button class="btn" type="submit"><i class="fa fa-download"></i><a href="asset.portfolio/Mya T. Lee 2021 Resume.pdf">Resumé Download</a></i></button>
+                </div>
+            </section>
+        </div>
+        <!-- /about -->
+
+        <div class="container">
+            <section id="gallery">
+                <div class="row" id="title2">
+                    <h2>My Works</h2>
+                </div>
+                <div class="row" id="projects">
+                    <div class="works works1">
+                        <img src="images.portfolio/starwars.png" alt=""></img>
+                        <a href="https://myatlee.github.io/StarWars/"><span>Star Wars demo game</span></a>
+                    </div>
+                    <div class="works works2">
+                        <img src="images.portfolio/battleship.png" alt=""></img>
+                        <a href="https://myatlee.github.io/Battleship/"><span>Battleship</span></a>
+                    </div>
+                    <!-- <div class="works works3">
+                        <img src="" alt=""><a href=""></a></img>
+                        <span>Project 3</span>
+                    </div> -->
+                </div>
+            </section>
+        </div>
+        
+        <!-- /gallery -->
+
+        <div class="container">
+            <section id="contact">
+                <div class="row" id="title2">
+                    <h2 >Contact me</h2>
+                    
+                </div>
+                <div class="row" id="title3">
+                    <p>If you have any questions, please do not hesitate to contact using the form below.</p>
+                </div>
+                
+                <div class="row" id="contact-form">
+                    <form action="mailto:mya@mscodingacademies.org" method="POST" enctype="multipart/form-data" name="EmailForm">
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Name">
+                        <label for="email"></label>
+                        <input type="email" id="email" placeholder="Email">
+                        <label for="subject"></label>
+                        <input type="text" id="subject" placeholder="Subject">
+                        <label for="message"></label>
+                        <input type="text" id="message" placeholder="Message...">
+                        <input type="submit" id="submit" placeholder="Send">
+                    </form>
+                </div>
+            </section>
+        </div>
+        
+        <!-- /contact -->
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar-bottom">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/mya-lee-538649aa/">LinkedIn</a></li>
+                        <li><a href="https://github.com/MyaTLee">GitHub</a></li>
+                        <li><a href="https://codepen.io/J00589189">CodePen</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- <script src="js.portfolio/portfolio.js"></script>  -->
+</html>
